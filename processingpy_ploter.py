@@ -1,4 +1,4 @@
-# use this code in the python Mode processing
+# use this code in the python Mode processing.
 
 add_library('net')
 
