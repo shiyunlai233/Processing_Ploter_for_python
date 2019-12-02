@@ -1,0 +1,14 @@
+# Processing_Ploter_for_python
+processing的实时画图功能是很强大的，他提供了最便捷简洁的画图函数，是强大的可视化工具。
+但是这样的工具也是存在问题的，那就是无法在一般的python环境中使用processing。经过了各种探索，
+我终于找到了在本地最便捷的从一般python环境中调用processing进行动态可视化的方法，
+那就通过本地网络连接processing和一般的python环境：  
+
+具体的说，就是先启动一个processing程序，然后再启动python程序，
+让两者通过本地网络连接进行通讯，从而使得python程序能够给processing程序发指令。 
+程序的主体在python中，而不是在processing中，
+从而使得我们的方案能够被广大的python使用者所使用。
+processing中的程序体量小，而且是设计好的通用性程序，
+使得使用者基本不必对其进行更改，从而变得更加方便。
+最终将processing丰富高效的可视化能力与python的
+丰富的科学计算生态以及强大的IDE环境的长处共同发挥出来。
